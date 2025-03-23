@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @stijnieboy150
-- 👀 I’m interested in computers
-- 🌱 I’m currently learning  ...
-- 💞️ I’m looking to collaborate on Pretendo Network
+- 👀 I’m interested in minecraft programming
+- 🌱 I’m currently learning  Java and Minecraft Developement
+- 💞️ I’m looking to collaborate with Nobody
 - 📫 How to reach me stijnieboy47@gmail.com
 - 🌍 i live in the Netherlands
 

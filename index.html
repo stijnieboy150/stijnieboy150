@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stijnieboy_150</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <header style="text-align: center; padding: 20px; background-color: #282c34; color: white;">
+            <h1>Mijn Portfolio</h1>
+            <p>Welkom op mijn portfolio! Hier laat ik zien wat ik kan.</p>
+        </header>
+
+        <main style="padding: 20px;">
+            <section style="margin-bottom: 40px;">
+                <h2>Over Mij</h2>
+                <p>Hallo! Ik ben Stijn of hoe de meeste mij kennen Stijnieboy_150 <br> Ik ben een developer met een passie voor Minecraft en webdevelopement. <br> Voor meer informatie kun je hier verder kijken sit is in developement. <br> Oh en wil je samenwerken dan kun je contact opnemen met het email adres onderaan de pagina.</p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2>Minecraft Ontwikkeling</h2>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/Velocity.jpg" alt="Velocity Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="velocity">Velocity</label>
+                        <progress id="velocity" value="8" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/BUngeeCord.jpg" alt="BungeeCord Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="bungeecord">BungeeCord</label>
+                        <progress id="bungeecord" value="65" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/SPigot.jpg" alt="Spigot Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="spigot">Spigot</label>
+                        <progress id="spigot" value="23" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="/Images/PaperMC.jpg" alt="Paper Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="paper">Paper</label>
+                        <progress id="paper" value="10" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2>Webontwikkeling</h2>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/HTML.jpg" alt="HTML Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="html">HTML</label>
+                        <progress id="html" value="84" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/CSS.jpg" alt="CSS Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="css">CSS</label>
+                        <progress id="css" value="100" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2>Andere Talen</h2>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/GOlang.jpg" alt="Golang Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="golang">Golang</label>
+                        <progress id="golang" value="5" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/Java.jpg" alt="Java Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="java">Java</label>
+                        <progress id="java" value="25" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="Images/python.jpg" alt="Python Logo" style="width: 50px; margin-right: 10px;">
+                    <div style="flex-grow: 1;">
+                        <label for="python">Python</label>
+                        <progress id="python" value="23" max="100" style="width: 100%;"></progress>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2>Contact Mij</h2>
+                <p>
+                    <a href="#" id="copyEmail" style="color: blue; text-decoration: underline;">stijnieboydevelopements@gmail.com</a>
+                </p>
+                <div id="popup" style="display: none; background-color: green; color: white; padding: 10px; margin-top: 10px; text-align: center;">
+                    Email gekopieerd naar het klembord!
+                </div>
+            </section>
+        </main>
+
+        <footer style="text-align: center; padding: 20px; background-color: #282c34; color: white;">
+            <p>Gemaakt door Stijnieboy_150</p>
+        </footer>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background: url('coding_background.gif') no-repeat center center fixed;
+                background-size: cover;
+                color: #333;
+            }
+        </style>
+
+        <script>
+            document.getElementById('copyEmail').addEventListener('click', function (event) {
+                event.preventDefault();
+                const email = 'stijnieboydevelopements@gmail.com';
+                navigator.clipboard.writeText(email).then(() => {
+                    const popup = document.getElementById('popup');
+                    popup.style.display = 'block';
+                    setTimeout(() => {
+                        popup.style.display = 'none';
+                    }, 3000);
+                });
+            });
+        </script>
+    </body>
+</html>

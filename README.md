@@ -1,11 +1,10 @@
-- 👋 Hi, I’m @stijnieboy150
-- 👀 I’m interested in minecraft programming
-- 🌱 I’m currently learning  Java and Minecraft Developement
-- 💞️ I’m looking to collaborate with Nobody
-- 📫 How to reach me stijnieboy47@gmail.com
-- 🌍 i live in the Netherlands
+**Hi There im Sitjnieboy_150!**
 
-<!---
-stijnieboy150/stijnieboy150 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Im a Dutch Minecraft Developer.
+Im good at BungeeCord and Spigot.
+And im good at Webdevelopement like: HTML, CSS.
+
+If you need some more information you can check my website:
+Or email me at: stijnieboydevelopements@gmail.com
+
+OH AND I LIKE SONIC 
